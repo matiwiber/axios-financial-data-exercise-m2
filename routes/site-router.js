@@ -12,7 +12,9 @@ siteRouter.get('/graphs-example', (req, res, next) => {
   res.render('financial-data');
 })
 
-
+siteRouter.get('/currencies-view', (req, res, next) => {
+  res.render('currencies-view');
+})
 
 
 
